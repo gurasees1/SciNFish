@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="147dp"
+        android:text="@string/i_am_a"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFishSci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginEnd="103dp"
+        android:layout_toEndOf="@id/textView4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <RadioButton
+            android:id="@+id/radioFisherfolk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/fisherfolk"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioScientist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/scientist"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</RelativeLayout>

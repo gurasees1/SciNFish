@@ -7,14 +7,13 @@
     tools:context=".WelcomeActivity">
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/appNameText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="SciNFish"
+        android:text="@string/appNameCapN"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
@@ -27,6 +26,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="95dp"
+        android:contentDescription="@string/scinfishlogo"
         android:src="@drawable/logo" />
 
     <TextView
@@ -37,8 +37,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="70dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="LINKING SCIENTISTS AND"
+        android:text="@string/missionLine1"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/colorSkyBlue"
@@ -54,7 +53,7 @@
         android:layout_marginStart="0dp"
         android:background="@drawable/gradientbackground"
         android:gravity="center"
-        android:text="Having trouble loggin in? Read our help page"
+        android:text="@string/loginHelpPage"
         android:textAlignment="center"
         android:textColor="@android:color/white" />
 
@@ -66,7 +65,7 @@
         android:layout_below="@+id/editText3"
         android:layout_marginStart="0dp"
         android:layout_marginTop="-70dp"
-        android:text="LOCAL COMMUNITIES"
+        android:text="@string/missionStatement2"
         android:textAlignment="center"
         android:textColor="@color/colorSkyBlue"
         android:textStyle="bold" />

@@ -14,4 +14,12 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="missionLine1">LINKING SCIENTISTS AND</string>
+    <string name="loginHelpPage">Having trouble loggin in? Read our help page</string>
+    <string name="missionStatement2">LOCAL COMMUNITIES</string>
+    <string name="appNameCapN">SciNFish</string>
+    <string name="scinfishlogo">SciNFishLogo</string>
+    <string name="i_am_a">I am a:</string>
+    <string name="fisherfolk">Fisherfolk</string>
+    <string name="scientist">Scientist</string>
 </resources>
