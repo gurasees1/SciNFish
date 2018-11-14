@@ -32,7 +32,8 @@
                 android:value="com.gai.guras.scinfish.WelcomeActivity" />
         </activity>
         <activity android:name=".UserTypeSelectionActivity" />
-        <activity android:name=".FisheryAreas"></activity>
+        <activity android:name=".FisheryAreas" />
+        <activity android:name=".SignUpActivity"></activity>
     </application>
 
 </manifest>

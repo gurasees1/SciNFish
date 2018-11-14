@@ -22,4 +22,7 @@
     <string name="i_am_a">I am a:</string>
     <string name="fisherfolk">Fisherfolk</string>
     <string name="scientist">Scientist</string>
+    <string name="create_a_new_account">Create A New Account</string>
+    <string name="username">Username:</string>
+    <string name="submit">submit</string>
 </resources>
